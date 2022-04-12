@@ -1,9 +1,6 @@
 # Grid
 
-<html>
-    <head>
-        <title>Grid</title>
-    </head>
+
     <style>
         .container{
             width:100%;
@@ -73,4 +70,3 @@
         <div class="item item7">item7</div>
     </div>
 </body>
-</html>
