@@ -59,6 +59,7 @@
            grid-area: footer;
         }
     </style>
+    
 <body>
     <div class="container">
         <div class="item item1">item1</div>
