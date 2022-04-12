@@ -60,7 +60,7 @@
         }
     </style>
     
-<body>
+<!--<body>
     <div class="container">
         <div class="item item1">item1</div>
         <div class="item item2">item2</div>
@@ -70,4 +70,4 @@
         <div class="item item6">item6</div>
         <div class="item item7">item7</div>
     </div>
-</body>
+</body> -->
