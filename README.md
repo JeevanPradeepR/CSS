@@ -23,15 +23,8 @@ Instead of giving 1fr for 3 times we can also give ```css grid-template-columns:
             grid-row-gap:30px;
             grid-column-gap:30px;
             grid-gap:30px 50px;
-	```
-Either 1&2 or 3. 
-```css 
-Grid-gap: width height; 
-``` 
-can also give 
-```css 
-grid-gap: 30px 
-``` 
+```
+Either 1&2 or 3. ```css Grid-gap: width height; ``` can also give ```css grid-gap: 30px ``` 
 if both width and height has same value.<br />
 <br />
 
