@@ -14,8 +14,14 @@ By giving display: grid won’t make any change but it stands for initialisation
 Here for rows two 150px stands for each rows. For example if we give 150px three time then it would be three rows.<br />
 Same for column as well.<br />
 Instead of px we can give fr which stands for fractional unit specially used for grid measurements.<br /> 
-It is mainly used to fill the grid along with the width of container.```css grid-template-columns: 1fr 1fr 1fr; ``` <br />
-Instead of giving 1fr for 3 times we can also give ```css grid-template-columns: repeat(3, 1fr) ``` <br />
+It is mainly used to fill the grid along with the width of container.
+```css 
+grid-template-columns: 1fr 1fr 1fr; 
+```
+Instead of giving 1fr for 3 times we can also give 
+```css 
+grid-template-columns: repeat(3, 1fr) 
+```
 <br />
 
 ## **Create gaps**
@@ -24,7 +30,14 @@ Instead of giving 1fr for 3 times we can also give ```css grid-template-columns:
             grid-column-gap:30px;
             grid-gap:30px 50px;
 ```
-Either 1&2 or 3. ```css Grid-gap: width height; ``` can also give ```css grid-gap: 30px ``` 
+Either 1&2 or 3.
+```css 
+Grid-gap: width height; 
+```
+can also give 
+```css 
+grid-gap: 30px 
+``` 
 if both width and height has same value.<br />
 <br />
 
@@ -32,11 +45,11 @@ if both width and height has same value.<br />
 For example we have 6 items under a container with 2 rows and 3 columns.<br />
 To position 1st item of grid to the 3rd column and 2nd row.<br />
 ```css
-.item1{<br />
+.item1{
             background-color:orangered;
             grid-column: 2/3;
-            grid-row:1/2  }
-	   ```
+            grid-row:1/2 }
+```
 Here grid-column: 2/3 means place me at 2nd column where 3 is the ending column and 2 is the staring column<br />
 Same to row.<br />
 
@@ -56,7 +69,7 @@ Because it simplifies the content. For example instead of giving 1/ span2  we ca
 Inside container   <br />
 
 ```css
-grid-template-areas: "header header header header"<br />
+grid-template-areas: "header header header header"
                                 "sidebar main main main"
                                 "sidebar main main main"
                                 "sidebar box1 box2 box3"
